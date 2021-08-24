@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Найди баг</title>
-  <link rel="stylesheet" href="styles/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
-  <div class="menu">
-    <h1 class="menu__title">Выберите уровень сложности:</h1>
-    <p class="menu__description">Выберите сложность и игра начнется. Чем выше уровень - тем больше будет выборка карт.</p>
-    <ul class="menu__level">
-      <li id="easy" class="menu__level_item selected">Простой</li>
-      <li id="medium" class="menu__level_item">Средний</li>
-      <li id="hard" class="menu__level_item">Сложный</li>
-    </ul>
-    <button type="button" class="menu__start">Начать игру</button>
-    <img src="img/card.png" alt="Карта 1" class="menu__card-1">
-    <img src="img/card.png" alt="Карта 2" class="menu__card-2">
-  </div>
-
-  <div сlass="game visible"></div>
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Найди баг</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="fonts.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="menu">
+      <h1 class="menu__title">Выберите уровень сложности:</h1>
+      <p class="menu__description">Выберите сложность и игра начнётся. Чем выше уровень - тем больше будет выборка карт.</p>
+      <ul class="menu__level">
+        <li class="menu__level_item">Простой</li>
+        <li class="menu__level_item">Средний</li>
+        <li class="menu__level_item">Сложный</li>
+      </ul>
+      <button type="button" name="button" class="menu__start">Начать игру</button>
+      <img src="img/card.png" class="menu__card-1" alt="Карта 1">
+      <img src="img/card.png" class="menu__card-2" alt="Карта 1">
+    </div>
+    <div class="game visible"></div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
 </html>
